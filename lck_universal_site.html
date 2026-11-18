@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090914">
+<title>LCK UNIVERSAL — Script Hub</title>
+<style>
+:root{--bg:#080812;--panel:#111124;--panel2:#17172e;--purple:#8b5cf6;--blue:#38bdf8;--text:#f5f3ff;--muted:#a5a3b8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 80% 0%,#25104b 0,transparent 34%),radial-gradient(circle at 0% 40%,#102b49 0,transparent 30%),var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif}
+nav{max-width:1100px;margin:auto;padding:22px 24px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:900;letter-spacing:1.5px;font-size:19px}.logo span{color:var(--purple)}
+nav a{color:var(--muted);text-decoration:none;margin-left:22px;font-size:14px}nav a:hover{color:white}
+.hero{max-width:1000px;margin:70px auto 55px;padding:25px 24px;text-align:center}
+.pill{display:inline-block;border:1px solid #6041a5;background:#241747;color:#d8c8ff;border-radius:99px;padding:8px 14px;font-size:12px;letter-spacing:1px}
+h1{font-size:clamp(42px,8vw,76px);line-height:.98;margin:24px 0 18px;letter-spacing:-3px}h1 span{background:linear-gradient(90deg,#a78bfa,#38bdf8);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{max-width:620px;margin:0 auto;color:var(--muted);font-size:17px;line-height:1.7}
+.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:30px}
+.btn{border:0;border-radius:12px;padding:14px 20px;font-weight:800;font-size:14px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;transition:.2s}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.12)}.primary{background:linear-gradient(100deg,var(--purple),#5865f2);color:white;box-shadow:0 8px 28px #7546dc40}.secondary{background:#1b1b32;color:#eee;border:1px solid #333350}
+.wrap{max-width:1000px;margin:0 auto;padding:0 24px 70px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:25px 0 50px}
+.card{background:linear-gradient(145deg,#17172b,#10101d);border:1px solid #292943;border-radius:18px;padding:22px}.icon{font-size:25px}.card h3{margin:13px 0 8px}.card p{color:var(--muted);font-size:14px;line-height:1.6;margin:0}
+.section-title{text-align:center;margin:0 0 20px;font-size:27px}
+.panel{background:#10101e;border:1px solid #292943;border-radius:18px;padding:24px;margin:18px 0}
+.panel h2{margin:0 0 8px;font-size:21px}.sub{color:var(--muted);font-size:14px;line-height:1.6;margin:0 0 18px}
+.code{background:#080811;border:1px solid #2b2b43;border-radius:12px;padding:15px;color:#c4b5fd;font-family:monospace;font-size:13px;line-height:1.6;overflow-wrap:anywhere;margin:12px 0}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.row .btn{padding:12px 16px}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.tag{font-size:12px;color:#c4b5fd;background:#251a42;border:1px solid #48316f;padding:7px 10px;border-radius:99px}
+footer{text-align:center;color:#77758e;padding:25px;border-top:1px solid #222238;font-size:12px}
+.notice{color:#aaa8bd;font-size:12px;line-height:1.6;margin-top:14px}
+@media(max-width:700px){nav{padding:18px}nav a{margin-left:12px;font-size:12px}.grid{grid-template-columns:1fr}.hero{margin-top:45px}h1{letter-spacing:-2px}.wrap{padding:0 17px 50px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">LCK <span>UNIVERSAL</span></div>
+  <div><a href="#recursos">Recursos</a><a href="#acesso">Acesso</a></div>
+</nav>
+<header class="hero">
+  <div class="pill">✦ SCRIPT HUB • VERSÃO BETA</div>
+  <h1>DOMINE O JOGO<br><span>COM LCK UNIVERSAL</span></h1>
+  <p>Central de acesso do LCK Universal. Encontre sua chave, copie o carregador e confira as novidades do projeto em um só lugar.</p>
+  <div class="actions">
+    <a class="btn primary" href="#acesso">ACESSAR SCRIPT</a>
+    <a class="btn secondary" href="#recursos">VER RECURSOS</a>
+  </div>
+</header>
+<main class="wrap">
+  <h2 class="section-title" id="recursos">O QUE TEM NO HUB</h2>
+  <div class="grid">
+    <article class="card"><div class="icon">⚡</div><h3>Acesso rápido</h3><p>Copie a chave e o código de carregamento diretamente pelo site.</p></article>
+    <article class="card"><div class="icon">📱</div><h3>Feito para celular</h3><p>Interface responsiva para abrir no Android, tablet ou computador.</p></article>
+    <article class="card"><div class="icon">🛠️</div><h3>Atualizações</h3><p>Consulte as novidades e acompanhe futuras versões do projeto.</p></article>
+  </div>
+  <h2 class="section-title" id="acesso">ÁREA DE ACESSO</h2>
+  <section class="panel">
+    <h2>🔑 Sua KEY</h2>
+    <p class="sub">Use o botão para copiar a chave de acesso configurada.</p>
+    <div class="code" id="key">FREE11G9W8S62B8LCKUNIVESAL0</div>
+    <div class="row"><button class="btn primary" onclick="copyText('key',this)">COPIAR KEY</button></div>
+  </section>
+  <section class="panel">
+    <h2>⌨️ Script de execução</h2>
+    <p class="sub">Copie o carregador abaixo e cole no seu executor, se você confiar no código e na origem.</p>
+    <div class="code" id="loader">loadstring(game:HttpGet("https://raw.githubusercontent.com/gustamaisthali-cmyk/Lck-universal-/refs/heads/main/Lck%20universal%20%5Bbeta%5D"))()</div>
+    <div class="row"><button class="btn primary" onclick="copyText('loader',this)">COPIAR SCRIPT</button></div>
+    <div class="tags"><span class="tag">BETA</span><span class="tag">ROBLOX</span><span class="tag">DELTA</span><span class="tag">ARCEUS X</span></div>
+    <p class="notice">A compatibilidade pode variar conforme a versão do Roblox e do executor. Só execute scripts de fontes em que você confia. Este site não verifica nem garante a segurança do código.</p>
+  </section>
+  <section class="panel">
+    <h2>📢 Novidades</h2>
+    <p class="sub">LCK Universal — versão Beta. Novas funções e correções podem ser adicionadas nas próximas atualizações.</p>
+  </section>
+</main>
+<footer>© 2026 LCK UNIVERSAL • Projeto independente, não afiliado à Roblox Corporation.</footer>
+<script>
+function copyText(id,button){
+  const text=document.getElementById(id).innerText;
+  const original=button.innerText;
+  const done=()=>{button.innerText='COPIADO!';setTimeout(()=>button.innerText=original,1500)};
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(text).then(done).catch(()=>fallback(text,done))}
+  else fallback(text,done);
+}
+function fallback(text,done){
+  const area=document.createElement('textarea');area.value=text;area.style.position='fixed';area.style.opacity='0';document.body.appendChild(area);area.select();
+  try{document.execCommand('copy');done()}catch(e){alert('Não foi possível copiar automaticamente. Selecione e copie o texto manualmente.')}
+  area.remove();
+}
+</script>
+</body>
+</html>
